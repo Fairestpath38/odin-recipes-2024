@@ -1,8 +1,16 @@
 .head {
     color: rgb(221, 73, 73);
+    font-size: 30px;
+    text-align: center;
+    
 }
 
 .back {
     background-color: black;
+    size: 100px;
 }
 
+.chicken-alfredo, .ceaser, .mac-and-cheese {
+    text-align: center;
+    font-size: 25px;
+}
