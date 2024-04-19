@@ -1,16 +1,33 @@
 .head {
-    color: rgb(221, 73, 73);
-    font-size: 30px;
+    color: rgb(212, 117, 117);
+    font-size: 40px;
     text-align: center;
     
 }
 
-.back {
-    background-color: black;
+.back, .mac-body, .chicken-body, .orange-body {
+    background-color: rgb(17 24 39);
     size: 100px;
+    text-align: center;
 }
 
-.chicken-alfredo, .ceaser, .mac-and-cheese {
+#mac-and-cheese, #chicken, #orange-chicken {
+    font-size: 20px;
+    text-align: left;
+}
+
+.chicken-alfredo, .orange-chicken, .mac-and-cheese, .mac-body, .chicken-body, .orange-body{
     text-align: center;
     font-size: 25px;
+    color: rgb(172, 172, 172);
 }
+
+.head, .back , .chicken-alfredo {
+    font-family:  fantasy, cursive, sans-serif;
+}
+
+.title {
+    color: #469aa0;
+
+}
+
