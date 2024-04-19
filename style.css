@@ -30,4 +30,6 @@
     color: #469aa0;
 
 }
-
+.index-unordered-list {
+    list-style-type: none;
+}
