@@ -46,4 +46,8 @@ li:not(:last-child) {
     border-style: double;
 }
 
-
+#chicken-head {
+    text-align: center;
+    border-color: whitesmoke;
+    border-style: inset;
+}
