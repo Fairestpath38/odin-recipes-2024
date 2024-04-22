@@ -1,12 +1,13 @@
 .head {
-    color: rgb(212, 117, 117);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: center;
     
 }
 
 .back, .mac-body, .chicken-body, .orange-body {
-    background-color: rgb(17 24 39);
+    /* background-color: rgb(17 24 39); */
+    background-color: rgb(156, 134, 218);
     size: 100px;
     text-align: center;
 }
@@ -19,7 +20,7 @@
 .chicken-alfredo, .orange-chicken, .mac-and-cheese, .mac-body, .chicken-body, .orange-body{
     text-align: center;
     font-size: 25px;
-    color: rgb(172, 172, 172);
+    color: rgb(0, 0, 0);
 }
 
 .head, .back , .chicken-alfredo {
@@ -32,4 +33,17 @@
 }
 .index-unordered-list {
     list-style-type: none;
+    margin: 30px;
+    padding: 40px;
 }
+
+li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.chicken-alfredo, .orange-chicken, .mac-and-cheese {
+    border-color: rgb(117, 23, 94);
+    border-style: double;
+}
+
+
